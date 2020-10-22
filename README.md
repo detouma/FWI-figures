@@ -9,15 +9,15 @@ The time of emergence shown in Figure 4 can be calculated using the Method descr
 
 plot_Figure1.py:
 inputs:
-- all-forcing ensemble files with frequency of extreme fire weather for each period
-- all-but-one forcing ensemble files with frequency of extreme fire weather for each period
-- land/ocean/ice mask
-- region boundaries (shown in Table S2)
+  - all-forcing ensemble files with frequency of extreme fire weather for each period
+  - all-but-one forcing ensemble files with frequency of extreme fire weather for each period
+  - land/ocean/ice mask
+  - region boundaries (shown in Table S2)
 user options:
-- forcing of interest
-- periods of interest
+  - forcing of interest
+  - periods of interest
 outputs:
-- Maps showing risk ratios as in Figure 1
+  - Maps showing risk ratios as in Figure 1
 
 plot_Figure2.py:
 inputs:
