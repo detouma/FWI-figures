@@ -8,52 +8,65 @@ The risk ratios shown in Figure 3 can be calculated using the Method description
 The time of emergence shown in Figure 4 can be calculated using the Method descriptions in the Touma et al. paper.
 
 plot_Figure1.py:
+
 inputs:
-  - all-forcing ensemble files with frequency of extreme fire weather for each period
-  - all-but-one forcing ensemble files with frequency of extreme fire weather for each period
-  - land/ocean/ice mask
-  - region boundaries (shown in Table S2)
+- all-forcing ensemble files with frequency of extreme fire weather for each period
+- all-but-one forcing ensemble files with frequency of extreme fire weather for each period
+- land/ocean/ice mask
+- region boundaries (shown in Table S2)
+
 user options:
   - forcing of interest
   - periods of interest
+ 
 outputs:
   - Maps showing risk ratios as in Figure 1
 
 plot_Figure2.py:
+
 inputs:
 - all-forcing ensemble files with frequency of extreme fire weather for 30-year moving window for whole simulation period
 - all but one forcing ensemble files with frequency of extreme fire weather for 30-year moving window for relative simulation periods
 - land/ocean/ice mask
 - region boundaries (shown in Table S2)
+
 output:
 - Regional time series of risk ratios as in Figure 2
 
 plot_Figure3.py:
+
 inputs:
 - all-forcing ensemble files with frequency of extreme fire weather for each period
 - all-forcing without variable effect ensemble files with frequency of extreme fire weather for each period
 - land/ocean/ice mask
 - region boundaries (shown in Table S2)
+
 user options:
 - forcing of interest
 - periods of interest
+
 outputs:
 - Maps showing isolated impacts of climate variabiles on risk ratios as in Figure 3
 
 plot_Figure4a.py
+
 inputs:
 - file containing time of emergence for all ensemble members of all forcing experiment
 - land/ocean/ice mask
+
 outputs:
 - Map showing median time of emergence of all forcing ensemble
 
 plot_Figure4bc.py
+
 inputs:
 - file containing time of emergence for all ensemble members of all forcing experiment
 - file containing time of emergence for all ensemble members of all-but-one forcing experiment
 - land/ocean/ice mask
+
 user options:
 - forcing selection
+
 output:
 - map showing difference in median time of emergence between all forcing ensemble and all-but-one forcing ensemble
 
