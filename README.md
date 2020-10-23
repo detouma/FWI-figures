@@ -1,5 +1,7 @@
 # FWI-figures
-These scripts are in python and will allow you to recreate Figures 1-4 in Touma et al. (in 2nd review at Nature Communications).
+The Source_Data.zip file contains the source data that is visible in Figures 1-5. This zip file contains 4 Multi-sheet Excel Workbooks (must be opened in Excel to be able to see sheets), as well as a README.txt file to describe each individual Source Data file.
+
+The python scripts will allow you to recreate Figures 1-4 in Touma et al. (in 2nd review at Nature Communications).
 
 Input files are the FWI time series for the CESM Large Ensemble experiments.
 The raw CESM daily maximum temperature (TREFHTMX), precipitation (PRECT), relative humidity (RH), and surface wind (WSPDSRFAV) data can be downloaded publicly from http://www.cesm.ucar.edu/projects/community-projects/LENS/data-sets.html and the FWI system/calculations is described extensively in http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.307.8282&rep=rep1&type=pdf (Dowdy et al., 2009). 
